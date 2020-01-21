@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact us</title>
+	<link rel="stylesheet" type="text/css" href="pro1.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<section id="about">
+  <div class="container">
+    <div class="row">
+<div class="col-md-6">
+	<div class="about-content">
+        <pre class="contact-details">
+        	<h5>CONTACT DETAILS</h5><br>
+        	HEAD OFFICE
+        	D FASHION,
+        	18, Kawdana Road,
+        	Dehiwala,
+        	Sri Lanka.
+        	Telephone : +94 11 273 7441
+        	Fax : +94 11 271 8774
+		</pre><br>
+        <pre class="contact-details">
+        	<h5>LOYALTY CARD CENTER</h5><br>
+        	Telephone : +94 11 273 7830
+        	Email : loyalty@dfashion.lk
+        	Working Hours : 9am - 5pm (GMT 5.30+)
+        </pre><br>
+        <pre class="contact-details">
+        	<h5>ONLINE INQUIRIES AND ORDERS</h5><br>
+        	Telephone : +94 11 505 9188
+        	Email : customercare@dfashion.lk
+        	Working Hours : 10am - 8pm (GMT 5.30+)
+        </pre>
+        <br>
+        <pre class="contact-details">
+        	<h5>PURCHASING & MERCHANDISING QUERIES</h5><br>
+        	Telephone : +94 11 273 9583
+        	Fax : +94 11 551 6312
+        	E-Mail : buying@dfashion.lk
+        </pre>
+        </div>
+	  </div>
+	  
+	  <!-- item code , size, name, address, contact number, message-->
+      <div class="col-md-6">
+        <h1 style=" text-align:center; font-style:italic">ONLINE INQUIRY</h1>
+        <div class="about-content">
+                 <b>ORDER YOUT ITEM NOW</b><br><br>
+        </div>
+        <div class="contact-design">
+         <form name="cform" action="test.php" method="POST">
+            <label for="cname"> Item Code</label>
+    		<input type="text" id="code" name="code" placeholder="Item Code" required ><br>
+
+			<label for="cname"> Name</label>
+    		<input type="text" id="fname" name="name" placeholder="Your name......" required minlength="3" autocomplete="off"><br>
+			
+			<label for="cname"> size of the item</label>
+			
+				<select name="size" required minlength="3" autocomplete="off" >
+					<option  value=""></option>
+				<option  value="S">S</option>
+				<option  value="M">M</option>
+				  <option value="L">L</option>
+				  <option value="XL">XL</option>
+				  <option value="XXL">XXL</option>
+			</select>
+			<br>
+
+    		<label for="t-number">Tel-number</label>
+    		<input type="text" id="t-number" name="t-number" placeholder="Your telephone number......" required maxlength="10" autocomplete="off"><br>
+
+    		<label for="t-number">E-mail</label>
+    		<input type="email" id="email" name="email" placeholder="Your E-mail......" required><br>
+
+			<label for="t-number">Address</label>
+    		<input type="text"  name="address" placeholder="Your address......" required><br>
+
+    		<label for="comment">Comment</label>
+    		<textarea id="comment" name="comment" placeholder="Write something....." style="height:200px" required></textarea><br>
+
+    		<input type="submit" value="ORDER NOW" >
+         </form>
+         </div>
+  </div>
+      </div>
+  </section>
+  <!----footer------->
+<section id="footer">
+  <div class="container">
+    <p align="center">Made with <i class="fa fa-heart-o"></i> by D Fashion</p>
+    <p align="center">Copyright © 2020 - D Fashion - All Rights Reserved.</p>
+    <p align="right">General Inquiry : +94 11 273 7441</p>
+  </div>
+</section>
+</body>
+</html>

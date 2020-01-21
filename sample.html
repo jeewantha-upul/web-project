@@ -1,0 +1,73 @@
+<script type="text/javascript">
+var arr=new Array("1.jpg","2.jpg");
+var i=1;
+var ref;
+function picLibrary()
+{
+	document.image[0].src=arr[1];
+	i++;
+	if(i>2)
+		i=0;
+}
+function start()
+{
+	ref=setInterval("picLibrary()",100);
+}
+function stop()
+{
+	clearInterval(ref);
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-3 profile-pic text-center">
+      <div class="img-box">
+        <img src="ww.jpg" class="img-responsive">
+        <ul>
+          <a href="#"><li><i class="fa fa-facebook-square"></i></li></a>
+          <a href="#"><li><i class="fa fa-twitter-square"></i></i></li></a>
+          <a href="#"><li></i><i class="fa fa-instagram"></i></li></a>
+        </ul>
+      </div>
+      <h3>Accessories</h3>
+      <h5>hats</h5>
+      <h5>sunglasses</h5>
+      <h5>shoes</h5>
+      <h5>bags</h5>
+    </div>
